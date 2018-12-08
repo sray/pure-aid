@@ -1,0 +1,35 @@
+{
+  "name": "pure-aid",
+  "version": "1.0.7",
+  "description": "A tiny collection of functions to be used in conjunction with normalizr and redux-undo to bridge the \"delete\" gap of normalizr.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --plugins babel-plugin-transform-object-rest-spread --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srse/pure-aid.git"
+  },
+  "keywords": [
+    "normalizr",
+    "redux",
+    "redux-undo",
+    "immutable",
+    "immutability",
+    "pure",
+    "tiny",
+    "small"
+  ],
+  "author": "Sarah Rose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srse/pure-aid/issues"
+  },
+  "homepage": "https://github.com/srse/pure-aid#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
